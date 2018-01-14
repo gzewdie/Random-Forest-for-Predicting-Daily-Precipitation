@@ -73,8 +73,9 @@ plt.title('Random Forest estimate, R=' "%.2f" %  cc[0,1])
 plt.savefig('RFpredict.png')
 plt.xlabel('Day of year')
 plt.ylabel('Precipitation(m)')
-plt.show()
 plt.savefig('RFTrainng')
+plt.show()
+
 
 # Let us now apply apply Cross Validation 
 
